@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		535D66052407AB87A6CC06A5 /* Pods_EMDb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5153FCEA9AA1091B498DE3D7 /* Pods_EMDb.framework */; };
+		9C22CECF1EEEE1830043D989 /* EMDb.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9C22CECD1EEEE1830043D989 /* EMDb.xcdatamodeld */; };
 		9C83A9221EEEA88E009BB414 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C83A9211EEEA88E009BB414 /* AppDelegate.swift */; };
 		9C83A9241EEEA88E009BB414 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C83A9231EEEA88E009BB414 /* ViewController.swift */; };
 		9C83A9271EEEA88E009BB414 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C83A9251EEEA88E009BB414 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* Begin PBXFileReference section */
 		5153FCEA9AA1091B498DE3D7 /* Pods_EMDb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EMDb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7D5DD4217799B889D4F05A06 /* Pods-EMDb.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMDb.release.xcconfig"; path = "Pods/Target Support Files/Pods-EMDb/Pods-EMDb.release.xcconfig"; sourceTree = "<group>"; };
+		9C22CECE1EEEE1830043D989 /* EMDb.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EMDb.xcdatamodel; sourceTree = "<group>"; };
 		9C83A91E1EEEA88E009BB414 /* EMDb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMDb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C83A9211EEEA88E009BB414 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C83A9231EEEA88E009BB414 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				9C83A92A1EEEA88E009BB414 /* LaunchScreen.storyboard */,
 				9C83A92D1EEEA88E009BB414 /* Info.plist */,
 				9CE4FD061EEEAF7000C7F836 /* CoreDataStack.swift */,
+				9C22CECD1EEEE1830043D989 /* EMDb.xcdatamodeld */,
 			);
 			path = EMDb;
 			sourceTree = "<group>";
@@ -215,6 +218,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9CE4FD071EEEAF7000C7F836 /* CoreDataStack.swift in Sources */,
+				9C22CECF1EEEE1830043D989 /* EMDb.xcdatamodeld in Sources */,
 				9C83A9241EEEA88E009BB414 /* ViewController.swift in Sources */,
 				9C83A9221EEEA88E009BB414 /* AppDelegate.swift in Sources */,
 			);
@@ -385,6 +389,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9C22CECD1EEEE1830043D989 /* EMDb.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9C22CECE1EEEE1830043D989 /* EMDb.xcdatamodel */,
+			);
+			currentVersion = 9C22CECE1EEEE1830043D989 /* EMDb.xcdatamodel */;
+			path = EMDb.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 9C83A9161EEEA88E009BB414 /* Project object */;
 }
