@@ -34,7 +34,7 @@ class RemoteiTunesMovieService {
                         var movie = [String: String]()
                         movie["id"] = entry["id"]["attributes"]["im:id"].stringValue
                         movie["title"] = entry["im:name][label"].stringValue
-                        movie["summary"] = entry["sumary"]["label"].stringValue
+                        movie["summary"] = entry["longDescription"].stringValue
                         movie["image"] = entry["im:image"][0]["label"].stringValue.replacingOccurrences(of: "60x60", with: "500x500")
                         movie["category"] = entry["category"]["attributes"]["label"].stringValue
                         movie["director"] = entry["im:artist"]["label"].stringValue
@@ -51,4 +51,63 @@ class RemoteiTunesMovieService {
         }
         
     }
+    
+    
+    
+    func searchMovies(byTerm: String, completionHandler: @escaping ([[String:String]]?) -> Void) {
+        
+        let url = URL(string: "https://itunes.apple.com/search")!
+        
+        //http request with Alamofire
+        Alamofire.request(url, method: .get, parameters: ["media": "movie", "attribute": "movieTerm", "country": "es", "term": byTerm], encoding: URLEncoding.default, headers: nil).validate().responseJSON() { response in
+            
+            switch response.result {
+            case .success:
+                var result = [[String:String]]()
+                if let value = response.result.value {
+                    
+                    let json = JSON(value)
+                    let entries = json["results"].arrayValue
+                    for entry in entries {
+                        var movie = [String:String]()
+                        movie["id"] = entry["trakId"].stringValue
+                        movie["title"] = entry["trackName"].stringValue
+                        movie["summary"] = entry["sumary"]["label"].stringValue
+                        movie["image"] = entry["artworkUrl100"].stringValue.replacingOccurrences(of: "100x100", with: "500x500")
+                        movie["category"] = entry["primaryGenreName"].stringValue
+                        movie["director"] = entry["artistName"].stringValue
+                        result.append(movie)
+
+                        
+                        
+                        
+                    
+                    }
+                    
+                }
+                completionHandler(result)
+                
+                
+            case .failure (let error):
+                print(error)
+                completionHandler(nil)
+
+            }
+        }
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
