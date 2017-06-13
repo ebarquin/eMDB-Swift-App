@@ -12,6 +12,7 @@
 		9C22CED11EEEEEAD0043D989 /* RemoteiTunesMovieService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C22CED01EEEEEAD0043D989 /* RemoteiTunesMovieService.swift */; };
 		9C22CED31EEEEEE70043D989 /* MovieManaged+Mapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C22CED21EEEEEE70043D989 /* MovieManaged+Mapping.swift */; };
 		9C22CED51EEEEEFF0043D989 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C22CED41EEEEEFF0043D989 /* Movie.swift */; };
+		9C22CED71EEF06850043D989 /* LocalCoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C22CED61EEF06850043D989 /* LocalCoreDataService.swift */; };
 		9C83A9221EEEA88E009BB414 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C83A9211EEEA88E009BB414 /* AppDelegate.swift */; };
 		9C83A9241EEEA88E009BB414 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C83A9231EEEA88E009BB414 /* ViewController.swift */; };
 		9C83A9271EEEA88E009BB414 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C83A9251EEEA88E009BB414 /* Main.storyboard */; };
@@ -27,6 +28,7 @@
 		9C22CED01EEEEEAD0043D989 /* RemoteiTunesMovieService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RemoteiTunesMovieService.swift; sourceTree = "<group>"; };
 		9C22CED21EEEEEE70043D989 /* MovieManaged+Mapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MovieManaged+Mapping.swift"; sourceTree = "<group>"; };
 		9C22CED41EEEEEFF0043D989 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		9C22CED61EEF06850043D989 /* LocalCoreDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalCoreDataService.swift; sourceTree = "<group>"; };
 		9C83A91E1EEEA88E009BB414 /* EMDb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMDb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C83A9211EEEA88E009BB414 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		9C83A9231EEEA88E009BB414 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -82,13 +84,14 @@
 			children = (
 				9C83A9211EEEA88E009BB414 /* AppDelegate.swift */,
 				9C83A9231EEEA88E009BB414 /* ViewController.swift */,
+				9CE4FD061EEEAF7000C7F836 /* CoreDataStack.swift */,
 				9C83A9251EEEA88E009BB414 /* Main.storyboard */,
 				9C83A9281EEEA88E009BB414 /* Assets.xcassets */,
 				9C83A92A1EEEA88E009BB414 /* LaunchScreen.storyboard */,
 				9C83A92D1EEEA88E009BB414 /* Info.plist */,
-				9CE4FD061EEEAF7000C7F836 /* CoreDataStack.swift */,
 				9C22CECD1EEEE1830043D989 /* EMDb.xcdatamodeld */,
 				9C22CED01EEEEEAD0043D989 /* RemoteiTunesMovieService.swift */,
+				9C22CED61EEF06850043D989 /* LocalCoreDataService.swift */,
 				9C22CED21EEEEEE70043D989 /* MovieManaged+Mapping.swift */,
 				9C22CED41EEEEEFF0043D989 /* Movie.swift */,
 			);
@@ -230,6 +233,7 @@
 				9CE4FD071EEEAF7000C7F836 /* CoreDataStack.swift in Sources */,
 				9C22CED11EEEEEAD0043D989 /* RemoteiTunesMovieService.swift in Sources */,
 				9C22CECF1EEEE1830043D989 /* EMDb.xcdatamodeld in Sources */,
+				9C22CED71EEF06850043D989 /* LocalCoreDataService.swift in Sources */,
 				9C22CED31EEEEEE70043D989 /* MovieManaged+Mapping.swift in Sources */,
 				9C83A9241EEEA88E009BB414 /* ViewController.swift in Sources */,
 				9C83A9221EEEA88E009BB414 /* AppDelegate.swift in Sources */,
