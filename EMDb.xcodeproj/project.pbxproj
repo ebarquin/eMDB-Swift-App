@@ -14,10 +14,12 @@
 		9C22CED51EEEEEFF0043D989 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C22CED41EEEEEFF0043D989 /* Movie.swift */; };
 		9C22CED71EEF06850043D989 /* LocalCoreDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C22CED61EEF06850043D989 /* LocalCoreDataService.swift */; };
 		9C83A9221EEEA88E009BB414 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C83A9211EEEA88E009BB414 /* AppDelegate.swift */; };
-		9C83A9241EEEA88E009BB414 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C83A9231EEEA88E009BB414 /* ViewController.swift */; };
 		9C83A9271EEEA88E009BB414 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C83A9251EEEA88E009BB414 /* Main.storyboard */; };
 		9C83A9291EEEA88E009BB414 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C83A9281EEEA88E009BB414 /* Assets.xcassets */; };
 		9C83A92C1EEEA88E009BB414 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C83A92A1EEEA88E009BB414 /* LaunchScreen.storyboard */; };
+		9CE477F61EEFF3D500510A91 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE477F51EEFF3D500510A91 /* ListViewController.swift */; };
+		9CE477F81EEFF3F100510A91 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE477F71EEFF3F100510A91 /* FavoritesViewController.swift */; };
+		9CE477FA1EEFF40100510A91 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE477F91EEFF40100510A91 /* MovieViewController.swift */; };
 		9CE4FD071EEEAF7000C7F836 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE4FD061EEEAF7000C7F836 /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,11 +33,13 @@
 		9C22CED61EEF06850043D989 /* LocalCoreDataService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalCoreDataService.swift; sourceTree = "<group>"; };
 		9C83A91E1EEEA88E009BB414 /* EMDb.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EMDb.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C83A9211EEEA88E009BB414 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9C83A9231EEEA88E009BB414 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9C83A9261EEEA88E009BB414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		9C83A9281EEEA88E009BB414 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C83A92B1EEEA88E009BB414 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C83A92D1EEEA88E009BB414 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9CE477F51EEFF3D500510A91 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		9CE477F71EEFF3F100510A91 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		9CE477F91EEFF40100510A91 /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
 		9CE4FD061EEEAF7000C7F836 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		EEAC4415191CB91D565D6DB1 /* Pods-EMDb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMDb.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EMDb/Pods-EMDb.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -105,7 +109,9 @@
 		9CE477F21EEFF2C600510A91 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9C83A9231EEEA88E009BB414 /* ViewController.swift */,
+				9CE477F51EEFF3D500510A91 /* ListViewController.swift */,
+				9CE477F71EEFF3F100510A91 /* FavoritesViewController.swift */,
+				9CE477F91EEFF40100510A91 /* MovieViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -262,12 +268,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				9C22CED51EEEEEFF0043D989 /* Movie.swift in Sources */,
+				9CE477FA1EEFF40100510A91 /* MovieViewController.swift in Sources */,
+				9CE477F81EEFF3F100510A91 /* FavoritesViewController.swift in Sources */,
 				9CE4FD071EEEAF7000C7F836 /* CoreDataStack.swift in Sources */,
 				9C22CED11EEEEEAD0043D989 /* RemoteiTunesMovieService.swift in Sources */,
 				9C22CECF1EEEE1830043D989 /* EMDb.xcdatamodeld in Sources */,
 				9C22CED71EEF06850043D989 /* LocalCoreDataService.swift in Sources */,
 				9C22CED31EEEEEE70043D989 /* MovieManaged+Mapping.swift in Sources */,
-				9C83A9241EEEA88E009BB414 /* ViewController.swift in Sources */,
+				9CE477F61EEFF3D500510A91 /* ListViewController.swift in Sources */,
 				9C83A9221EEEA88E009BB414 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
