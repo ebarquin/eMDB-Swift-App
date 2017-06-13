@@ -83,19 +83,51 @@
 			isa = PBXGroup;
 			children = (
 				9C83A9211EEEA88E009BB414 /* AppDelegate.swift */,
-				9C83A9231EEEA88E009BB414 /* ViewController.swift */,
-				9CE4FD061EEEAF7000C7F836 /* CoreDataStack.swift */,
-				9C83A9251EEEA88E009BB414 /* Main.storyboard */,
-				9C83A9281EEEA88E009BB414 /* Assets.xcassets */,
-				9C83A92A1EEEA88E009BB414 /* LaunchScreen.storyboard */,
+				9CE477F41EEFF2EA00510A91 /* Model */,
+				9CE477F31EEFF2DC00510A91 /* View */,
+				9CE477F21EEFF2C600510A91 /* Controller */,
+				9CE477F11EEFF2BF00510A91 /* Service */,
 				9C83A92D1EEEA88E009BB414 /* Info.plist */,
-				9C22CECD1EEEE1830043D989 /* EMDb.xcdatamodeld */,
-				9C22CED01EEEEEAD0043D989 /* RemoteiTunesMovieService.swift */,
+			);
+			path = EMDb;
+			sourceTree = "<group>";
+		};
+		9CE477F11EEFF2BF00510A91 /* Service */ = {
+			isa = PBXGroup;
+			children = (
 				9C22CED61EEF06850043D989 /* LocalCoreDataService.swift */,
+				9C22CED01EEEEEAD0043D989 /* RemoteiTunesMovieService.swift */,
+				9CE4FD061EEEAF7000C7F836 /* CoreDataStack.swift */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		9CE477F21EEFF2C600510A91 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9C83A9231EEEA88E009BB414 /* ViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9CE477F31EEFF2DC00510A91 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9C83A9251EEEA88E009BB414 /* Main.storyboard */,
+				9C83A92A1EEEA88E009BB414 /* LaunchScreen.storyboard */,
+				9C83A9281EEEA88E009BB414 /* Assets.xcassets */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		9CE477F41EEFF2EA00510A91 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9C22CECD1EEEE1830043D989 /* EMDb.xcdatamodeld */,
 				9C22CED21EEEEEE70043D989 /* MovieManaged+Mapping.swift */,
 				9C22CED41EEEEEFF0043D989 /* Movie.swift */,
 			);
-			path = EMDb;
+			name = Model;
 			sourceTree = "<group>";
 		};
 		DB9D67732CA0F2C8616BED77 /* Frameworks */ = {
