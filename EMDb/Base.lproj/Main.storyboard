@@ -56,7 +56,7 @@
                                         </constraints>
                                         <size key="customSize" width="113" height="170"/>
                                         <connections>
-                                            <outlet property="movieImage" destination="qWC-UQ-MoO" id="0F5-08-V6F"/>
+                                            <outlet property="movieImage" destination="qWC-UQ-MoO" id="C5a-Jg-jXp"/>
                                             <segue destination="ELY-je-ljT" kind="show" identifier="detailSegue" id="mi9-yy-Yti"/>
                                         </connections>
                                     </collectionViewCell>
@@ -262,7 +262,7 @@
                                         </constraints>
                                         <size key="customSize" width="113" height="170"/>
                                         <connections>
-                                            <outlet property="movieImage" destination="9fl-FU-erI" id="d0i-7G-dkL"/>
+                                            <outlet property="movieImage" destination="9fl-FU-erI" id="Gjq-m1-jrd"/>
                                             <segue destination="ELY-je-ljT" kind="show" identifier="detailSegue" id="AcT-DT-bDQ"/>
                                         </connections>
                                     </collectionViewCell>
