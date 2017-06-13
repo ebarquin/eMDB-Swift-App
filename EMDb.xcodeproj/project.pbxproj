@@ -20,6 +20,7 @@
 		9CE477F61EEFF3D500510A91 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE477F51EEFF3D500510A91 /* ListViewController.swift */; };
 		9CE477F81EEFF3F100510A91 /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE477F71EEFF3F100510A91 /* FavoritesViewController.swift */; };
 		9CE477FA1EEFF40100510A91 /* MovieViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE477F91EEFF40100510A91 /* MovieViewController.swift */; };
+		9CE477FC1EF0041800510A91 /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE477FB1EF0041800510A91 /* MovieCell.swift */; };
 		9CE4FD071EEEAF7000C7F836 /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CE4FD061EEEAF7000C7F836 /* CoreDataStack.swift */; };
 /* End PBXBuildFile section */
 
@@ -40,6 +41,7 @@
 		9CE477F51EEFF3D500510A91 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
 		9CE477F71EEFF3F100510A91 /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 		9CE477F91EEFF40100510A91 /* MovieViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewController.swift; sourceTree = "<group>"; };
+		9CE477FB1EF0041800510A91 /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		9CE4FD061EEEAF7000C7F836 /* CoreDataStack.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
 		EEAC4415191CB91D565D6DB1 /* Pods-EMDb.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EMDb.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EMDb/Pods-EMDb.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -132,6 +134,7 @@
 				9C22CECD1EEEE1830043D989 /* EMDb.xcdatamodeld */,
 				9C22CED21EEEEEE70043D989 /* MovieManaged+Mapping.swift */,
 				9C22CED41EEEEEFF0043D989 /* Movie.swift */,
+				9CE477FB1EF0041800510A91 /* MovieCell.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -270,6 +273,7 @@
 				9C22CED51EEEEEFF0043D989 /* Movie.swift in Sources */,
 				9CE477FA1EEFF40100510A91 /* MovieViewController.swift in Sources */,
 				9CE477F81EEFF3F100510A91 /* FavoritesViewController.swift in Sources */,
+				9CE477FC1EF0041800510A91 /* MovieCell.swift in Sources */,
 				9CE4FD071EEEAF7000C7F836 /* CoreDataStack.swift in Sources */,
 				9C22CED11EEEEEAD0043D989 /* RemoteiTunesMovieService.swift in Sources */,
 				9C22CECF1EEEE1830043D989 /* EMDb.xcdatamodeld in Sources */,
