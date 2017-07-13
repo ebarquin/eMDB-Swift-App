@@ -78,10 +78,6 @@ class RemoteiTunesMovieService {
                         movie["director"] = entry["artistName"].stringValue
                         result.append(movie)
 
-                        
-                        
-                        
-                    
                     }
                     
                 }

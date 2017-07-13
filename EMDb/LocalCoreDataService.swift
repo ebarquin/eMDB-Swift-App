@@ -16,7 +16,7 @@ class LocalCoredataService {
     
     func searchMovies(byTerm: String, remoteHandler: @escaping ([Movie]?) -> Void) {
         
-        remoteMovieService.searchMovies(byTerm: byTerm) { (movies) in
+        remoteMovieService.searchMovies(byTerm: byTerm) { movies in
             
             if let movies = movies {
                 
@@ -84,16 +84,15 @@ class LocalCoredataService {
         let sortDescriptor = NSSortDescriptor(key: "order", ascending: true)
         request.sortDescriptors = [sortDescriptor]
         
-        let predicate = NSPredicate(format: "favorite = \(false)")
+        let predicate = NSPredicate(format: "favorite = \(false)")
         request.predicate = predicate
         
         do {
+            
             let fetchedMovies = try context.fetch(request)
             
             var movies = [Movie]()
             for managedMovie in fetchedMovies {
-                
-                //With mappedObject method append movies from managedMovies
                 movies.append(managedMovie.mappedObject())
             }
             return movies
@@ -112,8 +111,8 @@ class LocalCoredataService {
         let request : NSFetchRequest<MovieManaged> = MovieManaged.fetchRequest()
         
         
-        let predicate = NSPredicate(format: "favorite = \(false)")
-        request.predicate = predicate
+        //let predicate = NSPredicate(format: "favorite = \(false)")
+        //request.predicate = predicate
         
         do {
             let fetchedMovies = try context.fetch(request)
