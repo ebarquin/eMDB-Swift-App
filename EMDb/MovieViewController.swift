@@ -60,6 +60,10 @@ class MovieViewController: UIViewController {
         }
     }
     
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+        movieSummary.scrollRangeToVisible(NSMakeRange(0, 0))
+    }
     
 
 }
