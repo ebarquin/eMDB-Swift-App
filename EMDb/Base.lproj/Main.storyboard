@@ -162,6 +162,9 @@
                                         <state key="normal" title="No me interesa" backgroundImage="btn-off">
                                             <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
+                                        <connections>
+                                            <action selector="favoritePressed:" destination="ELY-je-ljT" eventType="touchUpInside" id="oAb-QL-LKI"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.25882352941176467" green="0.25882352941176467" blue="0.25882352941176467" alpha="1" colorSpace="calibratedRGB"/>
@@ -211,6 +214,14 @@
                             <constraint firstAttribute="trailing" secondItem="bPB-pi-q6n" secondAttribute="trailing" id="tsN-Rw-MTC"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="btnFavorite" destination="MAG-ki-mbY" id="9md-u6-pdV"/>
+                        <outlet property="movieCategory" destination="vzT-Wd-Hqr" id="Yb8-35-Q6U"/>
+                        <outlet property="movieDirector" destination="EYt-iO-FCI" id="00B-HG-gui"/>
+                        <outlet property="movieImage" destination="qZp-jb-AmF" id="BEa-gp-Tti"/>
+                        <outlet property="movieSummary" destination="H3V-I4-uSM" id="U4y-kG-YE0"/>
+                        <outlet property="movieTitle" destination="ECS-gG-Rrs" id="6dd-2Y-uAj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="XU3-Gg-JbK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
@@ -278,6 +289,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Marcadas para ver" id="goe-m0-aUm"/>
+                    <connections>
+                        <outlet property="collectionView" destination="be6-yq-ewQ" id="agl-cc-PUa"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="8rf-RW-yLo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

@@ -204,4 +204,76 @@ class LocalCoredataService {
         }
         
     }
+    
+    func getFavoriteMovies() -> [Movie]? {
+        
+        let context = stack.persistentContainer.viewContext
+        let request : NSFetchRequest<MovieManaged> = MovieManaged.fetchRequest()
+        
+        let predicate = NSPredicate(format: "favorite = \(true)")
+        request.predicate = predicate
+        
+        do {
+            let fetchedMovies = try context.fetch(request)
+            
+            var movies: [Movie] = [Movie]()
+            for managedMovie in fetchedMovies {
+                movies.append(managedMovie.mappedObject())
+            }
+            return movies
+            
+            
+        } catch {
+            print("Error while getting favorites")
+            return nil
+        }
+    }
+    
+    func isMovieFavorite(movie: Movie) -> Bool {
+        if let _ = getMovieById(id: movie.id!, favorite: true) {
+            return true
+        }else{
+        return false
+        }
+    }
+    
+    func markUnmarkFavorite(movie: Movie) {
+        let context = stack.persistentContainer.viewContext
+        
+        if let exist = getMovieById(id: movie.id!, favorite: true) {
+            context.delete(exist)
+        } else {
+          
+            let favorite = MovieManaged(context: context)
+            favorite.id = movie.id
+            favorite.title = movie.title
+            favorite.summary = movie.summary
+            favorite.category = movie.category
+            favorite.director = movie.director
+            favorite.image = movie.image
+            favorite.favorite = true
+        }
+        
+        do {
+            try context.save()
+        } catch {
+            print("Error while marking as favorite")
+        }
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
 }
