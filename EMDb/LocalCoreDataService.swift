@@ -109,10 +109,10 @@ class LocalCoredataService {
     func markAllMoviesAsUnsync() {
         let context = stack.persistentContainer.viewContext
         let request : NSFetchRequest<MovieManaged> = MovieManaged.fetchRequest()
+
         
-        
-        //let predicate = NSPredicate(format: "favorite = \(false)")
-        //request.predicate = predicate
+        let predicate = NSPredicate(format: "favorite == %@", false as CVarArg)
+        request.predicate = predicate
         
         do {
             let fetchedMovies = try context.fetch(request)
@@ -136,7 +136,7 @@ class LocalCoredataService {
         let context = stack.persistentContainer.viewContext
         let request : NSFetchRequest<MovieManaged> = MovieManaged.fetchRequest()
         
-        let predicate = NSPredicate(format:"id = \(id) and favorite = \(favorite)")
+        let predicate = NSPredicate(format:"id = %@ AND favorite = %@" , argumentArray:[id, favorite])
         request.predicate = predicate
         
         do {
@@ -252,28 +252,46 @@ class LocalCoredataService {
             favorite.director = movie.director
             favorite.image = movie.image
             favorite.favorite = true
+        
+        
+            do {
+                try context.save()
+            } catch {
+                print("Error while marking as favorite")
+            }
+            
         }
         
-        do {
-            try context.save()
-        } catch {
-            print("Error while marking as favorite")
+        updateFavoritesBadge()
+        
+    
+        
+        
+    }
+    
+    func updateFavoritesBadge() {
+        if let totalFavorites = getFavoriteMovies()?.count {
+            let notification = Notification(name: Notification.Name("updateFavoritesBadgeNotification"), object: totalFavorites, userInfo: nil)
+            NotificationCenter.default.post(notification)
         }
     }
     
     
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

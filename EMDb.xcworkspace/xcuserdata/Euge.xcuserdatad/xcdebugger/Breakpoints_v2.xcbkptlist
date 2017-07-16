@@ -58,7 +58,7 @@
                   moduleName = "EMDb"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Euge/Desktop/Swift%203/apps/EMDb/EMDb/LocalCoreDataService.swift"
-                  timestampString = "521627766.654678"
+                  timestampString = "521902438.134931"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "127"
@@ -73,7 +73,7 @@
                   moduleName = "EMDb"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Euge/Desktop/Swift%203/apps/EMDb/EMDb/LocalCoreDataService.swift"
-                  timestampString = "521627766.660451"
+                  timestampString = "521902438.13877"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "127"
@@ -186,7 +186,7 @@
                   moduleName = "EMDb"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Euge/Desktop/Swift%203/apps/EMDb/EMDb/LocalCoreDataService.swift"
-                  timestampString = "521627766.783845"
+                  timestampString = "521902438.372544"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "202"
@@ -201,7 +201,7 @@
                   moduleName = "EMDb"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Euge/Desktop/Swift%203/apps/EMDb/EMDb/LocalCoreDataService.swift"
-                  timestampString = "521627766.787272"
+                  timestampString = "521902438.40247"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "202"
@@ -244,11 +244,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EMDb/ListViewController.swift"
-            timestampString = "521632427.600137"
+            timestampString = "521902036.046536"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "121"
-            endingLineNumber = "121"
+            startingLineNumber = "123"
+            endingLineNumber = "123"
             landmarkName = "loadData()"
             landmarkType = "7">
             <Locations>
@@ -260,11 +260,11 @@
                   moduleName = "EMDb"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Euge/Desktop/Swift%203/apps/EMDb/EMDb/ListViewController.swift"
-                  timestampString = "521627766.879424"
+                  timestampString = "521902438.472148"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "115"
-                  endingLineNumber = "115"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
                   offsetFromSymbolStart = "12">
                </Location>
                <Location
@@ -275,11 +275,11 @@
                   moduleName = "EMDb"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Euge/Desktop/Swift%203/apps/EMDb/EMDb/ListViewController.swift"
-                  timestampString = "521627766.882581"
+                  timestampString = "521902438.475712"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "117"
-                  endingLineNumber = "117"
+                  startingLineNumber = "125"
+                  endingLineNumber = "125"
                   offsetFromSymbolStart = "19">
                </Location>
             </Locations>
@@ -292,11 +292,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EMDb/ListViewController.swift"
-            timestampString = "521632427.600137"
+            timestampString = "521902036.046536"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "123"
-            endingLineNumber = "123"
+            startingLineNumber = "125"
+            endingLineNumber = "125"
             landmarkName = "loadData()"
             landmarkType = "7">
          </BreakpointContent>
@@ -308,11 +308,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EMDb/ListViewController.swift"
-            timestampString = "521632427.600137"
+            timestampString = "521902036.046536"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "128"
-            endingLineNumber = "128"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
             landmarkName = "loadData()"
             landmarkType = "7">
          </BreakpointContent>
@@ -324,55 +324,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EMDb/ListViewController.swift"
-            timestampString = "521632427.600137"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "133"
-            endingLineNumber = "133"
-            landmarkName = "loadData()"
-            landmarkType = "7">
-            <Locations>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "EMDb.ListViewController.(loadData () -&gt; ()).(closure #1)"
-                  moduleName = "EMDb"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Euge/Desktop/Swift%203/apps/EMDb/EMDb/ListViewController.swift"
-                  timestampString = "521627766.981252"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "127"
-                  endingLineNumber = "127"
-                  offsetFromSymbolStart = "598">
-               </Location>
-               <Location
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "EMDb.ListViewController.(loadData () -&gt; ()).(closure #2)"
-                  moduleName = "EMDb"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/Euge/Desktop/Swift%203/apps/EMDb/EMDb/ListViewController.swift"
-                  timestampString = "521627766.986913"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "129"
-                  endingLineNumber = "129"
-                  offsetFromSymbolStart = "19">
-               </Location>
-            </Locations>
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "EMDb/ListViewController.swift"
-            timestampString = "521632427.600137"
+            timestampString = "521902036.046536"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "135"
@@ -384,15 +336,63 @@
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
+                  symbolName = "EMDb.ListViewController.(loadData () -&gt; ()).(closure #1)"
+                  moduleName = "EMDb"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Euge/Desktop/Swift%203/apps/EMDb/EMDb/ListViewController.swift"
+                  timestampString = "521902438.504405"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "135"
+                  endingLineNumber = "135"
+                  offsetFromSymbolStart = "598">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
                   symbolName = "EMDb.ListViewController.(loadData () -&gt; ()).(closure #2)"
                   moduleName = "EMDb"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Euge/Desktop/Swift%203/apps/EMDb/EMDb/ListViewController.swift"
-                  timestampString = "521627767.021549"
+                  timestampString = "521902438.508033"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "129"
-                  endingLineNumber = "129"
+                  startingLineNumber = "137"
+                  endingLineNumber = "137"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EMDb/ListViewController.swift"
+            timestampString = "521902036.046536"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "137"
+            endingLineNumber = "137"
+            landmarkName = "loadData()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EMDb.ListViewController.(loadData () -&gt; ()).(closure #2)"
+                  moduleName = "EMDb"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Euge/Desktop/Swift%203/apps/EMDb/EMDb/ListViewController.swift"
+                  timestampString = "521902438.518627"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "137"
+                  endingLineNumber = "137"
                   offsetFromSymbolStart = "19">
                </Location>
                <Location
@@ -403,11 +403,11 @@
                   moduleName = "EMDb"
                   usesParentBreakpointCondition = "Yes"
                   urlString = "file:///Users/Euge/Desktop/Swift%203/apps/EMDb/EMDb/ListViewController.swift"
-                  timestampString = "521627767.029178"
+                  timestampString = "521902438.522366"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "129"
-                  endingLineNumber = "129"
+                  startingLineNumber = "137"
+                  endingLineNumber = "137"
                   offsetFromSymbolStart = "66">
                </Location>
             </Locations>
@@ -436,11 +436,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "EMDb/ListViewController.swift"
-            timestampString = "521632427.600137"
+            timestampString = "521902036.046536"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "129"
-            endingLineNumber = "129"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
             landmarkName = "loadData()"
             landmarkType = "7">
          </BreakpointContent>
@@ -459,6 +459,68 @@
             endingLineNumber = "17"
             landmarkName = "MovieViewController"
             landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EMDb.MovieViewController.movieCategory.getter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "EMDb"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Euge/Desktop/Swift%203/apps/EMDb/EMDb/MovieViewController.swift"
+                  timestampString = "521902438.545222"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "27">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EMDb.MovieViewController.movieCategory.setter : weak Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "EMDb"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Euge/Desktop/Swift%203/apps/EMDb/EMDb/MovieViewController.swift"
+                  timestampString = "521902438.55163"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "42">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EMDb.MovieViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; EMDb.MovieViewController"
+                  moduleName = "EMDb"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Euge/Desktop/Swift%203/apps/EMDb/EMDb/MovieViewController.swift"
+                  timestampString = "521902438.554856"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "351">
+               </Location>
+               <Location
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "EMDb.MovieViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;EMDb.MovieViewController&gt;"
+                  moduleName = "EMDb"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Euge/Desktop/Swift%203/apps/EMDb/EMDb/MovieViewController.swift"
+                  timestampString = "521902438.558085"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "17"
+                  endingLineNumber = "17"
+                  offsetFromSymbolStart = "244">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

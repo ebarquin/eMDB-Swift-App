@@ -78,7 +78,9 @@
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="mS9-j3-3Zj" secondAttribute="bottom" id="zz8-9B-55d"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Top Peliculas iTunes" id="eFd-zy-EOi"/>
+                    <navigationItem key="navigationItem" title="Top Peliculas iTunes" id="eFd-zy-EOi">
+                        <barButtonItem key="backBarButtonItem" title=" " id="Qje-NR-bOH"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="mS9-j3-3Zj" id="4Xn-Tw-Oaa"/>
                         <outlet property="searchBar" destination="T32-GM-wnq" id="rtW-sI-07K"/>
@@ -182,7 +184,7 @@
                                     <constraint firstItem="qZp-jb-AmF" firstAttribute="leading" secondItem="bPB-pi-q6n" secondAttribute="leading" constant="16" id="xKi-qw-4n4"/>
                                 </constraints>
                             </view>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="TÍTULO" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cnM-3V-5Yz">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SINÓPSIS" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cnM-3V-5Yz">
                                 <rect key="frame" x="36" y="286" width="303" height="16"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="16" id="AUR-8w-idm"/>
@@ -288,7 +290,9 @@
                             <constraint firstAttribute="trailing" secondItem="be6-yq-ewQ" secondAttribute="trailing" id="H0e-ZN-yTv"/>
                         </constraints>
                     </view>
-                    <navigationItem key="navigationItem" title="Marcadas para ver" id="goe-m0-aUm"/>
+                    <navigationItem key="navigationItem" title="Marcadas para ver" id="goe-m0-aUm">
+                        <barButtonItem key="backBarButtonItem" title=" " id="Leh-Nm-igs"/>
+                    </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="be6-yq-ewQ" id="agl-cc-PUa"/>
                     </connections>
@@ -373,6 +377,6 @@
         <image name="ver-icon" width="25" height="10"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="AcT-DT-bDQ"/>
+        <segue reference="mi9-yy-Yti"/>
     </inferredMetricsTieBreakers>
 </document>
