@@ -33,8 +33,8 @@ class RemoteiTunesMovieService {
                         
                         var movie = [String: String]()
                         movie["id"] = entry["id"]["attributes"]["im:id"].stringValue
-                        movie["title"] = entry["im:name][label"].stringValue
-                        movie["summary"] = entry["longDescription"].stringValue
+                        movie["title"] = entry["im:name"]["label"].stringValue
+                        movie["summary"] = entry["summary"]["label"].stringValue
                         movie["image"] = entry["im:image"][0]["label"].stringValue.replacingOccurrences(of: "60x60", with: "500x500")
                         movie["category"] = entry["category"]["attributes"]["label"].stringValue
                         movie["director"] = entry["im:artist"]["label"].stringValue
@@ -70,9 +70,9 @@ class RemoteiTunesMovieService {
                     let entries = json["results"].arrayValue
                     for entry in entries {
                         var movie = [String:String]()
-                        movie["id"] = entry["trakId"].stringValue
+                        movie["id"] = entry["trackId"].stringValue
                         movie["title"] = entry["trackName"].stringValue
-                        movie["summary"] = entry["sumary"]["label"].stringValue
+                        movie["summary"] = entry["longDescription"].stringValue
                         movie["image"] = entry["artworkUrl100"].stringValue.replacingOccurrences(of: "100x100", with: "500x500")
                         movie["category"] = entry["primaryGenreName"].stringValue
                         movie["director"] = entry["artistName"].stringValue
